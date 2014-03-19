@@ -640,7 +640,7 @@ def main(args):
         #raise
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='TeSpeed, CLI SpeedTest.net')
+    parser = argparse.ArgumentParser(description='TeSpeed, the CLI for SpeedTest.net')
 
     parser.add_argument('server', nargs='?', type=str, default='', help='Use the specified server for testing (skip checking for location and closest server).')
     parser.add_argument('-ls', '--list-servers', dest='listservers', nargs='?', default=0, const=10, help='List the servers sorted by distance, nearest first. Optionally specify number of servers to show.')
